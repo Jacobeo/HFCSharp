@@ -1,0 +1,69 @@
+#ignore build results
+
+#ignore Bamboo build numbers
+build-number.txt
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.pdf
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.opensdf
+*.sdf
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+*.lib
+*.sbr
+obj/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.tmp_proj
+*.orig
+PublishProfiles
+
+#ignore ConnectionStrings.config copied as build action
+net/Aveva.Erm.RestAPI.ServiceDeployment/ConnectionStrings.config
+#ignore installer stuff
+net/Aveva.ERM.Installer/Source/CommonBin
+net/Aveva.ERM.Installer/Source/Fragments/FilesFragment.wxs
+net/Aveva.ERM.Installer/Packages
+
+#ingore cp script sequence
+db/cp_script/*/sequence.txt
+
+#ignore nuget packages (not using wildcard ignore, to preserve e.g. DataAccess\Packages)
+net/packages/
+
+#Ignore plsql developer temp files
+*.~pkb
+*.~pkh
+*.~dat
+*.~sql
+*.~tab
+*.~con
+*.~fnc
+*.upg
+*.lst
+*.$$$
+*.~seq
+*.~trg
+*.tst
+*.~tst
+*.~viw
+*.~help
